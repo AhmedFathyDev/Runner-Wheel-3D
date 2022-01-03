@@ -14,7 +14,6 @@ public class TileManager : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        NumberOfTiles = 4;
         activeTiles = new List<GameObject>();
 
         for (int i = 0; i < NumberOfTiles; ++i)

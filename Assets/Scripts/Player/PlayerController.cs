@@ -116,17 +116,6 @@ public class PlayerController : MonoBehaviour
         controller.Move(direction * Time.deltaTime);
     }
 
-    // Update is called once at fixed period of time.
-    //private void FixedUpdate()
-    //{
-    //    if (!PlayerManager.IsGameStarted || PlayerManager.GameOver)
-    //    {
-    //        return;
-    //    }
-
-    //    controller.Move(direction * Time.deltaTime);
-    //}
-
     private void jump()
     {
         direction.y = JumpForce;

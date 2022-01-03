@@ -10,6 +10,7 @@ public class PlayerManager : MonoBehaviour
     public GameObject GameOverPanel;
     public GameObject StartingText;
     public Text CoinsText;
+    public Text Username;
 
     // Start is called before the first frame update
     private void Start()
@@ -19,6 +20,7 @@ public class PlayerManager : MonoBehaviour
         IsGameStarted = false;
         NumberOfCoins = 0;
         CoinsText.text = "Coins: 0";
+        Username.text = MenuEvents.Username;
     }
 
     // Update is called once per frame
